@@ -1,0 +1,34 @@
+/*-----------------------------------------
+Derry Lammerding - CSS for derble.github.io
+-----------------------------------------*/
+
+body{
+    background-color: #383838;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+}
+
+#top-image {
+    background: url(../images/astronomy-evening.jpg) no-repeat 50% 50%;/*planets image fixed when scrolling*/
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	display: block;
+    height: auto;
+    padding-top: 350px; /* This is spacer before the Main title Logo */
+	padding-bottom: 500px; /* This is spacer after the Main title Logo */
+}
+
+footer {
+    background-color: #383838;
+    color: #fff;
+	text-shadow: 2px 2px 8px 0 (0,0,0,1);
+    padding: 20px 40px 20px 40px;
+    text-align: center;
+}
