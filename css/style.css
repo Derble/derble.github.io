@@ -12,7 +12,7 @@ nav {
 }
 
 #top-image {
-    background: url(../images/astronomy-evening.jpg) no-repeat 50% 50%;/*planets image fixed when scrolling*/
+    background: url(../images/astronomy-evening.jpg) no-repeat 50% 50%;
 	background-attachment: fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -24,6 +24,47 @@ nav {
     padding-top: 350px; /* This is spacer before the Main title Logo */
 	padding-bottom: 500px; /* This is spacer after the Main title Logo */
 }
+
+.name {
+    color: #fcfcfc;
+    font-size: 50px;
+    text-shadow: 4px 4px 4px rgba(0,0,0,0.6);
+    padding-bottom: 10px;
+    padding-left: 10%;
+    
+}
+
+.job {
+    color: #f0ddff;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.6);
+    padding-left: 10%;
+}
+
+.mid-image {
+    background: url(../images/triangle-pattern.jpg) no-repeat 50% 50%;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+}
+/*
+#skills {
+    text-align: center;
+}
+
+#portfolio {
+    text-align: center;
+}
+
+#experience {
+    text-align: center;
+}*/
+
+/*.contact {
+    padding-top: 20px;
+    padding-left: 55px;
+    color: #fff;
+    background-color: #383838;
+}*/
 
 footer {
     background-color: #383838;
