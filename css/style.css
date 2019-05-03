@@ -46,25 +46,43 @@ nav {
     text-align: center;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
 }
-/*
+
 #skills {
-    text-align: center;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    border-top: solid #383838 5px;
+    border-bottom: solid #383838 5px;
+}
+
+h1::after {
+    display: block;
+    content: "";
+	height: 2px;
+    width: 150px;
+    background: #f0ddff;
+    margin: 5px auto 40px;
+	box-shadow: 5px 2px 3px rgba(0,0,0,0.5);
 }
 
 #portfolio {
-    text-align: center;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    border-bottom: solid #383838 5px;
+}
+
+.card-deck {
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 #experience {
-    text-align: center;
-}*/
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
 
-/*.contact {
-    padding-top: 20px;
-    padding-left: 55px;
-    color: #fff;
-    background-color: #383838;
-}*/
+.me {
+    padding: 0px 15px 0px 15px;
+}
 
 footer {
     background-color: #383838;
@@ -73,3 +91,23 @@ footer {
     padding: 20px 40px 20px 40px;
     text-align: center;
 }
+
+/*
+@media (min-width:500px) {
+
+    nav {
+        position: fixed;
+        width: 100%;
+    }
+
+}
+
+@media (max-width:499px){
+
+    nav {
+        position: fixed;
+        width: 100%;
+        
+    }
+
+}*/
