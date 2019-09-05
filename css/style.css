@@ -43,6 +43,7 @@ nav {
 
 .mid-image {
     background: url(../images/triangle-pattern.jpg) no-repeat 50% 50%;
+    background-repeat: repeat-y;
     text-align: center;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
 }
