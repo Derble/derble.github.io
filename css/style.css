@@ -42,9 +42,7 @@ nav {
 }
 
 .mid-image {
-    /*background: url(../images/triangle-pattern.jpg) no-repeat 50% 50%;*/
-    background: url(../images/triangle-pattern.jpg) repeat-y 50% 50%;
-    
+    background: url(../images/triangle-pattern.jpg) no-repeat 50% 50%;
     text-align: center;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
 }
@@ -102,14 +100,13 @@ footer {
         width: 100%;
     }
 
-}
+}*/
 
 @media (max-width:499px){
 
-    nav {
-        position: fixed;
-        width: 100%;
-        
+    .mid-image{
+        background-color: #baddff;
+        background: url(../images/triangle-pattern.jpg) repeat-y;
     }
 
-}*/
+}
