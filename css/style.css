@@ -105,7 +105,7 @@ footer {
 @media (max-width:499px){
 
     .mid-image{
-        background-color: #baddff;
+        /*background-color: #baddff;*/
         background: url(../images/triangle-pattern.jpg) repeat-y;
     }
 
