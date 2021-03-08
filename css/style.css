@@ -2,49 +2,50 @@
 Derry Lammerding - CSS for derble.github.io
 -----------------------------------------*/
 
-body{
+body {
     background-color: #383838;
 }
 
-nav {
+/* nav {
     position: fixed;
     width: 100%;
-}
+} */
 
 #top-image {
     background: url(../images/astronomy-evening.jpg) no-repeat 50% 50%;
-	background-attachment: fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	width: 100%;
-	display: block;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    display: block;
     height: auto;
-    padding-top: 350px; /* This is spacer before the Main title Logo */
-	padding-bottom: 500px; /* This is spacer after the Main title Logo */
+    padding-top: 350px;
+    /* This is spacer before the Main title Logo */
+    padding-bottom: 500px;
+    /* This is spacer after the Main title Logo */
 }
 
 .name {
     color: #fcfcfc;
     font-size: 50px;
-    text-shadow: 4px 4px 4px rgba(0,0,0,0.6);
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
     padding-bottom: 10px;
     padding-left: 10%;
-    
 }
 
 .job {
     color: #f0ddff;
     font-size: 30px;
-    text-shadow: 3px 3px 3px rgba(0,0,0,0.6);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
     padding-left: 10%;
 }
 
 .mid-image {
-    background: url(../images/triangle-pattern.jpg) no-repeat 50% 50%;
+    background: url(../images/triangle-pattern.jpg) 50% 50%;
     text-align: center;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
 }
 
 #skills {
@@ -57,11 +58,11 @@ nav {
 h1::after {
     display: block;
     content: "";
-	height: 2px;
+    height: 2px;
     width: 150px;
     background: #f0ddff;
     margin: 5px auto 40px;
-	box-shadow: 5px 2px 3px rgba(0,0,0,0.5);
+    box-shadow: 5px 2px 3px rgba(0, 0, 0, 0.5);
 }
 
 #portfolio {
@@ -87,7 +88,7 @@ h1::after {
 footer {
     background-color: #383838;
     color: #fff;
-	text-shadow: 2px 2px 8px 0 (0,0,0,1);
+    text-shadow: 2px 2px 8px 0 (0, 0, 0, 1);
     padding: 20px 40px 20px 40px;
     text-align: center;
 }
@@ -102,11 +103,9 @@ footer {
 
 }*/
 
-@media (max-width:499px){
-
-    .mid-image{
-        /*background-color: #baddff;*/
+@media (max-width:499px) {
+    .mid-image {
+        /* background-color: #baddff; */
         background: url(../images/triangle-pattern.jpg) repeat-y;
     }
-
 }
